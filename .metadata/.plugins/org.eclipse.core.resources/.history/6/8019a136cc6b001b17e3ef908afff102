@@ -1,0 +1,5 @@
+package com.pruebatecnica.entity;
+
+public class Person {
+
+}

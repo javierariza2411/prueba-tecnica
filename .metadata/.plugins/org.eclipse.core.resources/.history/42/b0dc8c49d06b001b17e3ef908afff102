@@ -1,0 +1,9 @@
+package com.pruebatecnica.services;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.pruebatecnica.entity.Person;
+
+public interface personServices extends CrudRepository<Person, Long> {
+
+}

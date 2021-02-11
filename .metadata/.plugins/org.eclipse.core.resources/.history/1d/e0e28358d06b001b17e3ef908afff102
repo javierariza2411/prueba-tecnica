@@ -1,0 +1,9 @@
+package com.pruebatecnica.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.pruebatecnica.entity.Person;
+
+public interface personDao extends CrudRepository<Person, Long> {
+
+}

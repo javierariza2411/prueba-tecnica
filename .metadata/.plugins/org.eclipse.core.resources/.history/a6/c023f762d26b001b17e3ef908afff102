@@ -1,0 +1,9 @@
+package com.pruebatecnica.service;
+
+public class PersonService {
+
+	public interface PersonService {
+
+		public List<Person> getTask();
+		
+	}

@@ -1,0 +1,11 @@
+package com.pruebatecnica.idao;
+
+import java.util.List;
+
+import com.pruebatecnica.entity.Person;
+
+public interface PersonService {
+
+		public List<Person> getPerson();
+		
+	}
